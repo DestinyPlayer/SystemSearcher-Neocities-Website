@@ -14,10 +14,10 @@
 	--headerunderline: #666;
 	
 	/*backgrounds*/
-	--bodybg: #112;
+	--bodybg: #1128;
 	--mainbg: #001;
-	--boxbg: #320; 
-	--boxheaderbg: #320;
+	--boxbg: #320a;
+	--boxheaderbg: #000;
 	--sidebarlinkhoverbg: #ddd;
 
 	--logo: /face.gif;
@@ -37,7 +37,7 @@
 
 
 body {
-	background-color: var(--bodybg);
+	background-color: var(--mainbg);
 	color: var(--text);
 	font-family: Courier;
 	margin: 0;
@@ -90,14 +90,11 @@ a.redlink{text-decoration: none; color: var(--redlink);}
 	background-image: url(Header.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-color: #0000;
 	padding: 20px;
 	flex: 1 1 0;
 	border-radius: 10px;
 	border: 2px solid var(--boxborder);
-	text-align: center;
-	font-size: 100px;
-	text-decoration: none;
-	text-decoration-line: none;
 }
 
 .headlogo h1{
