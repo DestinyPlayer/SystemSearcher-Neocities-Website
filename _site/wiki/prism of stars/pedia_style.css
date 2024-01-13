@@ -19,7 +19,12 @@
 	--boxbg: #320; 
 	--boxheaderbg: #320;
 	--sidebarlinkhoverbg: #ddd;
+
+	--logo: /face.gif;
 }
+
+/**** IMAGES *****/
+
 
 /******** FONTS *********/
 @font-face {
