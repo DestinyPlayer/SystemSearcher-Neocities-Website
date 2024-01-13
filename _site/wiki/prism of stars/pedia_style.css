@@ -1,12 +1,12 @@
 /********** COLOR VARIABLES **********/
 :root{
 	/*text*/
-	--text: #000;
-	--link: #0000EE;
-	--linkhover: #000066;
-	--redlink: #CC0000;
-	--header: #000;
-	--boxheader: #000;
+	--text: #FFF;
+	--link: #EEAA00;
+	--linkhover: #FFBB00;
+	--redlink: #FF0000;
+	--header: #FFF;
+	--boxheader: #FFF;
 	
 	/*borders and underlines*/
 	--mainborder: #666;
@@ -14,8 +14,8 @@
 	--headerunderline: #666;
 	
 	/*backgrounds*/
-	--bodybg: #ddd;
-	--mainbg: #fff;
+	--bodybg: #112;
+	--mainbg: #001;
 	--boxbg: #eee; 
 	--boxheaderbg: #fff;
 	--sidebarlinkhoverbg: #ddd;
