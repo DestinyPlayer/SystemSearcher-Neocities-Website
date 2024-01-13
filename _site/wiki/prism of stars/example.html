@@ -8,257 +8,219 @@
     <link href="pedia_style.css" rel="stylesheet" type="text/css" media="all">
 	
 	<!--page title-->
-    <title>Example Page - Pedia</title>
+	<title>Prism of Stars - Example Page</title>
 	
   </head>
   
   <body>
-	
-	<!--main container. make sure everything is inside this-->
-	  <div class="container">
+	  <script src="javascript/include-html.js"></script>
 
-		  <!--sidebar-->
-		  <sidebar>
+	  <sidebar w3-include-html="components/sidebar.html"></sidebar>
 
-			  <!--logo image-->
-			  <a href="index.html"><img src="/face.gif" class="logo-image" alt="home page"></a>
+	  <!--main-->
+	  <main>
 
-			  <!--sidebar nav-->
-			  <nav>
-				  <a href ="/index.html">Go Home</a>
-			  </nav>
-
-			  <nav>
-				  <!--header-->
-				  <h2>Basics</h2>
-
-				  <!--list of links-->
-				  <a href="index.html">Main Page</a></li>
-				  <a href="#">Link</a></li>
-			  </nav><!--end of sidebar nav-->
-			  <!--another sidebar nav-->
-			  <nav>
-				  <!--header-->
-				  <h2>Main Species</h2>
-
-				  <!--list of links-->
-				  <a href="#">Eternals</a></li>
-				  <a href="#">Fautja</a></li>
-				  <a href="#">Crystal Peeps</a></li>
-			  </nav><!--end of sidebar nav-->
-
-			  <nav>
-				  <h2>Wiki</h2>
-
-				  <a href="example.html">Example Page</a></li>
-				  <a href="templates.html">Templates</a></li>
-			  </nav>
-
-		  </sidebar><!--end of sidebar-->
-
-		  <!--main-->
-		  <main>
-
-			  <!--top header-->
-			  <div class="headlogo">
-				  <h1>PRISM OF STARS</h1>
-			  </div>
-			  <h1>Page Title</h1>
+		  <!--top header-->
+		  <div class="headlogo">
+			  <h1>PRISM OF STARS</h1>
+		  </div>
+		  <h1>Page Title</h1>
 
 
-			  <!--notice box-->
-			  <div class="notice">
-				  <!--notice image-->
-				  <img src="https://placekitten.com/50/50" alt="Warning:">
-				  <!--notice text-->
-				  <p>This is a notice box, to warn about stubs / spoilers / etc.</p>
-			  </div>
+		  <!--notice box-->
+		  <div class="notice">
+			  <!--notice image-->
+			  <img src="https://placekitten.com/50/50" alt="Warning:">
+			  <!--notice text-->
+			  <p>This is a notice box, to warn about stubs / spoilers / etc.</p>
+		  </div>
 
 
-			  <!--infobox-->
-			  <table class="infobox">
-				  <tbody>
+		  <!--infobox-->
+		  <table class="infobox">
+			  <tbody>
 
-					  <!--header row-->
-					  <tr>
-						  <th colspan="2">
-							  <h2>Infobox</h2>
-						  </th>
-					  </tr>
+				  <!--header row-->
+				  <tr>
+					  <th colspan="2">
+						  <h2>Infobox</h2>
+					  </th>
+				  </tr>
 
-					  <!--image row-->
-					  <tr>
-						  <th colspan="2">
-							  <img src="https://placekitten.com/200/200" alt="example image">
-						  </th>
-					  </tr>
+				  <!--image row-->
+				  <tr>
+					  <th colspan="2">
+						  <img src="https://placekitten.com/200/200" alt="example image">
+					  </th>
+				  </tr>
 
-					  <!--subheader row-->
-					  <tr>
-						  <th colspan="2">
-							  <hr />
-							  <h3>Infobox Subheader</h3>
-						  </th>
-					  </tr>
+				  <!--subheader row-->
+				  <tr>
+					  <th colspan="2">
+						  <hr />
+						  <h3>Infobox Subheader</h3>
+					  </th>
+				  </tr>
 
-					  <!--info row-->
-					  <tr>
-						  <th>Info:</th>
-						  <td>xyz</td>
-					  </tr>
+				  <!--info row-->
+				  <tr>
+					  <th>Info:</th>
+					  <td>xyz</td>
+				  </tr>
 
-					  <!--info row. basically just put a <br> between the info to make line breaks-->
-					  <tr>
-						  <th>Longer Info:</th>
-						  <td>
-							  lorem ipsum dolor sit amet
-							  <br>
-							  consectetuer adipiscing elit
-						  </td>
-					  </tr>
+				  <!--info row. basically just put a <br> between the info to make line breaks-->
+				  <tr>
+					  <th>Longer Info:</th>
+					  <td>
+						  lorem ipsum dolor sit amet
+						  <br>
+						  consectetuer adipiscing elit
+					  </td>
+				  </tr>
 
-					  <!--subheader row-->
-					  <tr>
-						  <th colspan="2">
-							  <hr />
-							  <h3>Infobox Subheader</h3>
-						  </th>
-					  </tr>
+				  <!--subheader row-->
+				  <tr>
+					  <th colspan="2">
+						  <hr />
+						  <h3>Infobox Subheader</h3>
+					  </th>
+				  </tr>
 
-					  <!--info row-->
-					  <tr>
-						  <th>Info:</th>
-						  <td>xyz</td>
-					  </tr>
+				  <!--info row-->
+				  <tr>
+					  <th>Info:</th>
+					  <td>xyz</td>
+				  </tr>
 
-				  </tbody>
-			  </table><!--end of infobox-->
-
-
-			  <p><a href="#">This is an example of a real link</a>. <a href="#" class="redlink">This is an example of a redlink that doesn't go anywhere</a>. You can adjust the colors of these (and everything else in the template) by going into the CSS file and changing the color variables at the top of the file. </p>
+			  </tbody>
+		  </table><!--end of infobox-->
 
 
-			  <!--table of contents-->
-			  <details open class="toc">
-				  <!--toc text-->
-				  <summary>Table of Contents</summary>
+		  <p><a href="#">This is an example of a real link</a>. <a href="#" class="redlink">This is an example of a redlink that doesn't go anywhere</a>. You can adjust the colors of these (and everything else in the template) by going into the CSS file and changing the color variables at the top of the file. </p>
 
-				  <!--the lists-->
+
+		  <!--table of contents-->
+		  <details open class="toc">
+			  <!--toc text-->
+			  <summary>Table of Contents</summary>
+
+			  <!--the lists-->
+			  <ol>
+				  <li><a href="#head1">Subheader 1</a></li>
 				  <ol>
-					  <li><a href="#head1">Subheader 1</a></li>
-					  <ol>
-						  <li><a href="#sect1">Subsection 1</a></li>
-						  <li><a href="#sect2">Subsection 2</a></li>
-					  </ol>
-
-					  <li><a href="#head2">Subheader 2</a></li>
-					  <li><a href="#head3">Subheader 3</a></li>
+					  <li><a href="#sect1">Subsection 1</a></li>
+					  <li><a href="#sect2">Subsection 2</a></li>
 				  </ol>
-			  </details><!--end of table of contents-->
 
-			  <h2 id="head1">Subheader 1</h2>
+				  <li><a href="#head2">Subheader 2</a></li>
+				  <li><a href="#head3">Subheader 3</a></li>
+			  </ol>
+		  </details><!--end of table of contents-->
+
+		  <h2 id="head1">Subheader 1</h2>
 
 
-			  <!--left image-->
-			  <figure class="left-image">
+		  <!--left image-->
+		  <figure class="left-image">
+			  <img src="https://placekitten.com/300/200" alt="example image">
+			  <figcaption>Left image example. next one has no caption</figcaption>
+		  </figure>
+
+		  <!--left image with no caption-->
+		  <figure class="left-image">
+			  <img src="https://placekitten.com/300/200" alt="example image">
+		  </figure>
+
+
+		  <p>This code has two mobile responsiveness breakpoints: one at 1000px and one at 576px. The sidebar goes on top on small screens. On desktop, you can test this by resizing the window. </p>
+
+
+		  <h3 id="sect1">Subsection 1</h3>
+
+		  <p>The table of contents is open by default. You can make it closed by default by removing the word open from the tag. </p>
+		  <p>This is a static template, so you'll have to set up the table of contents on each page manually. Add an id="headername" to each header in your code, then add a corresponding link with href="#headername" to the table of contents. IDs cannot contain spaces or begin with a number. </p>
+		  <p>There's no elegant way to make sub-ordered-lists appear like 1.1, 1.2, etc. in HTMLCSS. On MediaWiki sites, they just auto generate the numbers right onto the page, which is messy and not ideal for a static site. You'll have to make do with a/b/c, sorry. </p>
+
+
+		  <h3 id="sect2">Subsection 2</h3>
+
+		  <p>Most things in this code (the notice boxes, floating images, infoboxes, etc.) can be dropped into your page wherever you want with minimal issues. Just copy and paste. </p>
+
+
+		  <h2 id="head2">Subheader 2</h2>
+
+		  <!--right image-->
+		  <figure class="right-image">
+			  <img src="https://placekitten.com/300/200" alt="example image">
+			  <figcaption>Right image example.</figcaption>
+		  </figure>
+
+
+		  <p>There are some utility classes in the CSS: </p>
+
+		  <ul>
+			  <li>Adding .text-center to anything centers the text</li>
+			  <li>Adding .text-big to anything makes the text big</li>
+			  <li>Adding .redlink to &lt;a&gt; makes it red (see above) </li>
+			  <li>See below for effect of .clear-both</li>
+		  </ul>
+
+
+		  <h2 id="head3" class="clear-both">Subheader 3</h2>
+
+		  <p>Make sure any &lt;h2&gt; elements directly under a section with a right-floating image have the class "clear-both" applied. This makes it "clear" any floating elements and appear below them, to avoid display weirdness on large screens. </p>
+
+		  <p><b>(NEW)</b> This code now contains gallery rows - see below for an example. If you're already using this theme, you can use "view page source" to grab the HTML/CSS for the gallery, and drop them into your code. </p>
+
+		  <!--gallery-->
+		  <div class="gallery">
+
+			  <!--gallery image-->
+			  <figure class="gallery-image">
 				  <img src="https://placekitten.com/300/200" alt="example image">
-				  <figcaption>Left image example. next one has no caption</figcaption>
+				  <figcaption>Caption text goes here.</figcaption>
 			  </figure>
 
-			  <!--left image with no caption-->
-			  <figure class="left-image">
-				  <img src="https://placekitten.com/300/200" alt="example image">
+			  <!--gallery image-->
+			  <figure class="gallery-image">
+				  <img src="https://placekitten.com/200/300" alt="example image">
+				  <figcaption>Images heights are the same... </figcaption>
 			  </figure>
 
-
-			  <p>This code has two mobile responsiveness breakpoints: one at 1000px and one at 576px. The sidebar goes on top on small screens. On desktop, you can test this by resizing the window. </p>
-
-
-			  <h3 id="sect1">Subsection 1</h3>
-
-			  <p>The table of contents is open by default. You can make it closed by default by removing the word open from the tag. </p>
-			  <p>This is a static template, so you'll have to set up the table of contents on each page manually. Add an id="headername" to each header in your code, then add a corresponding link with href="#headername" to the table of contents. IDs cannot contain spaces or begin with a number. </p>
-			  <p>There's no elegant way to make sub-ordered-lists appear like 1.1, 1.2, etc. in HTMLCSS. On MediaWiki sites, they just auto generate the numbers right onto the page, which is messy and not ideal for a static site. You'll have to make do with a/b/c, sorry. </p>
-
-
-			  <h3 id="sect2">Subsection 2</h3>
-
-			  <p>Most things in this code (the notice boxes, floating images, infoboxes, etc.) can be dropped into your page wherever you want with minimal issues. Just copy and paste. </p>
-
-
-			  <h2 id="head2">Subheader 2</h2>
-
-			  <!--right image-->
-			  <figure class="right-image">
+			  <!--gallery image-->
+			  <figure class="gallery-image">
 				  <img src="https://placekitten.com/300/200" alt="example image">
-				  <figcaption>Right image example.</figcaption>
+				  <figcaption>...but captions can be taller or shorter. No caption is also ok.</figcaption>
 			  </figure>
 
+			  <!--gallery image with no caption-->
+			  <figure class="gallery-image">
+				  <img src="https://placekitten.com/200/240" alt="example image">
+			  </figure>
 
-			  <p>There are some utility classes in the CSS: </p>
+			  <!--gallery image-->
+			  <figure class="gallery-image">
+				  <img src="https://placekitten.com/400/200" alt="example image">
+				  <figcaption>If you have enough images, they'll automatically wrap into additional rows.</figcaption>
+			  </figure>
 
-			  <ul>
-				  <li>Adding .text-center to anything centers the text</li>
-				  <li>Adding .text-big to anything makes the text big</li>
-				  <li>Adding .redlink to &lt;a&gt; makes it red (see above) </li>
-				  <li>See below for effect of .clear-both</li>
-			  </ul>
+			  <!--gallery image-->
+			  <figure class="gallery-image">
+				  <img src="https://placekitten.com/300/200" alt="example image">
+				  <figcaption>You can test this by resizing your window.</figcaption>
+			  </figure>
+		  </div><!--end of gallery-->
 
+	  </main><!--end of main-->
+	  <!--footer-->
+	  <footer>
 
-			  <h2 id="head3" class="clear-both">Subheader 3</h2>
+		  <p>Powered by Pedia | <a href="https://squidknees.neocities.org/">squidknees - author of Pedia</a> | <a href="">Link</a> </p>
 
-			  <p>Make sure any &lt;h2&gt; elements directly under a section with a right-floating image have the class "clear-both" applied. This makes it "clear" any floating elements and appear below them, to avoid display weirdness on large screens. </p>
-
-			  <p><b>(NEW)</b> This code now contains gallery rows - see below for an example. If you're already using this theme, you can use "view page source" to grab the HTML/CSS for the gallery, and drop them into your code. </p>
-
-			  <!--gallery-->
-			  <div class="gallery">
-
-				  <!--gallery image-->
-				  <figure class="gallery-image">
-					  <img src="https://placekitten.com/300/200" alt="example image">
-					  <figcaption>Caption text goes here.</figcaption>
-				  </figure>
-
-				  <!--gallery image-->
-				  <figure class="gallery-image">
-					  <img src="https://placekitten.com/200/300" alt="example image">
-					  <figcaption>Images heights are the same... </figcaption>
-				  </figure>
-
-				  <!--gallery image-->
-				  <figure class="gallery-image">
-					  <img src="https://placekitten.com/300/200" alt="example image">
-					  <figcaption>...but captions can be taller or shorter. No caption is also ok.</figcaption>
-				  </figure>
-
-				  <!--gallery image with no caption-->
-				  <figure class="gallery-image">
-					  <img src="https://placekitten.com/200/240" alt="example image">
-				  </figure>
-
-				  <!--gallery image-->
-				  <figure class="gallery-image">
-					  <img src="https://placekitten.com/400/200" alt="example image">
-					  <figcaption>If you have enough images, they'll automatically wrap into additional rows.</figcaption>
-				  </figure>
-
-				  <!--gallery image-->
-				  <figure class="gallery-image">
-					  <img src="https://placekitten.com/300/200" alt="example image">
-					  <figcaption>You can test this by resizing your window.</figcaption>
-				  </figure>
-			  </div><!--end of gallery-->
-
-		  </main><!--end of main-->
-		  <!--footer-->
-		  <footer>
-
-			  <p>Powered by Pedia | <a href="https://squidknees.neocities.org/">squidknees - author of Pedia</a> | <a href="">Link</a> </p>
-
-		  </footer><!--end of footer-->
-
+	  </footer><!--end of footer-->
 	  </div><!--end of page container-->
-  
+	  <script>
+		includeHTML();
+	  </script>
   </body>
 </html>
