@@ -1,25 +1,26 @@
 /********** COLOR VARIABLES **********/
-:root{
+:root {
 	/*text*/
 	--text: #fff;
 	--link: #EEAA00;
 	--linkhover: #FFeebb;
 	--redlink: #aa0000;
+	--redlinkhover: #cc0000;
 	--header: #FFF;
 	--boxheader: #FFF;
-	
+	--emblem: #0008;
+
 	/*borders and underlines*/
 	--mainborder: #555;
 	--boxborder: #555;
 	--headerunderline: #555;
-	
+	--emblemborder: #fed;
 	/*backgrounds*/
 	--bodybg: #111;
 	--mainbg: #222;
 	--boxbg: #421a;
 	--boxheaderbg: #0000;
 	--sidebarlinkhoverbg: #ddd;
-
 	--logo: /face.gif;
 }
 
@@ -61,13 +62,18 @@ h1, h2{
 	clear: left;
 }
 
+h1{
+	font-size: 48px;
+}
+
 img{max-width: 100%}
 
 /********** UTILITY CLASSES **********/
 
 .text-center{text-align: center;}
 
-a.redlink{text-decoration: none; color: var(--redlink);}
+a.redlink{text-decoration: underline; color: var(--redlink);}
+a.redlink:hover{color: var(--redlinkhover);}
 
 .big-text{font-size: large;}
 
@@ -91,21 +97,23 @@ a.redlink{text-decoration: none; color: var(--redlink);}
 .headlogo {
 	background-image: url(Header.jpg);
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: left left;
 	background-color: #0000;
 	padding: 0px;
+	margin-bottom: 10px;
 	flex: 1 1 0;
 	border-radius: 10px;
 	border: 2px solid var(--boxborder);
 }
 
 .headlogo h1{
-	text-align: center;
+	text-align: right;
 	font-size: 100px;
 	border-bottom: none;
 	margin: 20px;
-	color: var(--link);
-	-webkit-text-stroke: 1px #000;
+	color: var(--emblem);
+	-webkit-text-stroke: 2px var(--emblemborder);
+	user-select: none;
 }
 /********** SIDEBAR **********/
 
@@ -226,6 +234,12 @@ ul.box-nav a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+/***** changelog *****/
+
+ul.changelog {
+
 }
 
 /***** infobox *****/
