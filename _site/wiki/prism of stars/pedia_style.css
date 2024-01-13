@@ -301,7 +301,7 @@ details.toc summary{
 }
 
 /***** floating images *****/
-figure.left-image, figure.right-image{
+figure.left-image, figure.right-image, figure.center-image{
 	padding: 5px;
 	margin: 0 0 5px 0;
 	max-width: 253px;
@@ -309,7 +309,7 @@ figure.left-image, figure.right-image{
 	border: 2px solid var(--boxborder);
 }
 
-figure.left-image img, figure.right-image img{
+figure.left-image img, figure.right-image, figure.center-image img{
 	max-width: 250px;
 	
 	border: 2px solid var(--boxborder);
@@ -325,6 +325,11 @@ figure.right-image{
 	float: right;
 	clear: right;
 	margin-left: 10px;
+}
+
+figure.center-image {
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /***** gallery *****/
