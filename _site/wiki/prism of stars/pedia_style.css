@@ -86,12 +86,27 @@ a.redlink{text-decoration: none; color: var(--redlink);}
 }
 
 /********** HEADER BAR **********/
-headerbar {
+.headlogo {
 	background-image: url(Header.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 20px;
+	flex: 1 1 0;
+	border-radius: 10px;
+	border: 2px solid var(--boxborder);
+	text-align: center;
+	font-size: 100px;
+	text-decoration: none;
+	text-decoration-line: none;
 }
 
-headerbar h1{
+.headlogo h1{
 	text-align: center;
+	font-size: 100px;
+	border-bottom: none;
+	font-family: aldrich-regular;
+	margin: 50px 50px 50px 50px;
+	color: var(--link);
 }
 /********** SIDEBAR **********/
 
