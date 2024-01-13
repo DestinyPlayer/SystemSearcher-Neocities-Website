@@ -1,0 +1,408 @@
+/********** COLOR VARIABLES **********/
+:root{
+	/*text*/
+	--text: #000;
+	--link: #0000EE;
+	--linkhover: #000066;
+	--redlink: #CC0000;
+	--header: #000;
+	--boxheader: #000;
+	
+	/*borders and underlines*/
+	--mainborder: #666;
+	--boxborder: #666;
+	--headerunderline: #666;
+	
+	/*backgrounds*/
+	--bodybg: #ddd;
+	--mainbg: #fff;
+	--boxbg: #eee; 
+	--boxheaderbg: #fff;
+	--sidebarlinkhoverbg: #ddd;
+}
+
+/********** BASIC STYLING **********/
+
+body{
+	background-color: var(--bodybg);	
+	color: var(--text);
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a{color: var(--link); text-decoration: underline;}
+a:hover{color: var(--linkhover);}
+
+h1, h2, h3, h4, h5{
+	margin-top: 0;   
+}
+
+h1, h2{
+	color: var(--header); 
+	border-bottom: 2px solid var(--headerunderline);
+	overflow: hidden;
+	clear: left;
+}
+
+img{max-width: 100%}
+
+/********** UTILITY CLASSES **********/
+
+.text-center{text-align: center;}
+
+a.redlink{text-decoration: none; color: var(--redlink);}
+
+.big-text{font-size: large;}
+
+.clear-both{clear: both;}
+
+/********** GRID CONTAINER **********/
+
+.container{
+	display: grid;
+	grid-template-columns: 200px auto;
+	grid-template-rows: 1fr auto;
+	grid-template-areas: 
+		"sidebar main"
+		"footer footer";
+	row-gap: 15px;
+	column-gap: 15px;
+	margin: 15px 0 0 0;
+	min-height: Calc(100vh - 15px);
+}
+
+/********** SIDEBAR **********/
+
+sidebar{
+	grid-area: sidebar;
+}
+
+sidebar .logo-image{
+	margin-bottom: 10px;
+}
+
+/***** sidebar navs *****/
+
+sidebar nav{
+	padding: 10px;
+	background-color: var(--mainbg);
+	margin-bottom: 10px;
+	
+	border-radius: 0 10px 10px 0;
+	border: 2px solid var(--mainborder);
+	border-left: none;
+}
+
+sidebar nav h2{
+	margin: 0 10px;
+	font-size: 16pt;
+}
+
+sidebar nav ul{
+	margin: 10px 5px 5px 5px;
+	padding-left: 20px;
+}
+
+sidebar nav a{
+	display: block;
+	padding: 2px;
+}
+
+sidebar nav a:hover{
+	background-color: var(--sidebarlinkhoverbg);
+}
+
+/********** MAIN **********/
+
+main{
+	grid-area: main;
+	padding: 10px;
+	background-color: var(--mainbg);
+	
+	border-radius: 10px 0 0 10px;
+	border: 2px solid var(--mainborder);
+	border-right: none;
+}
+
+/***** boxes *****/
+
+.box-row{
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+	column-gap: 10px;
+}
+
+.box{
+	padding: 10px;
+	background-color: var(--boxbg);
+	flex: 1 1 0;
+	
+	border-radius: 10px;
+	border: 2px solid var(--boxborder);
+}
+
+.box h1, .box h2, .box h3, .box h4, .box h5{
+	color: var(--boxheader);
+	background-color: var(--boxheaderbg);
+	padding: 5px;
+	
+	border-radius: 5px;
+	border-bottom: none;
+}
+
+/***** box navs *****/
+
+ul.box-nav{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0;
+}
+
+ul.box-nav li{
+	flex: 1 1 0;
+}
+
+ul.box-nav a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/***** infobox *****/
+
+table.infobox{
+	background-color: var(--boxbg);
+	padding: 2px;
+	border: 2px solid var(--boxborder);
+	width: 300px;
+	
+	float: right;
+	margin-left: 10px;
+	
+	text-align: left;
+}
+
+table.infobox tbody{
+	vertical-align: top;
+}
+
+table.infobox th[colspan="2"]{
+	text-align: center;
+}
+
+.infobox h1, .infobox h2, .infobox h3, .infobox h4, .infobox h5{
+	border-bottom: none;
+	background-color: var(--boxheaderbg);
+	color: var(--boxheader);
+	margin: 0;
+}
+
+table.infobox th, table.infobox td{
+	padding: 5px;
+}
+
+/***** table of contents *****/
+
+details.toc{
+	background-color: var(--boxbg);
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	
+	border: 2px solid var(--boxborder);
+}
+
+details.toc ol{
+	margin: 5px 0;
+}
+
+details.toc ol ol{
+	padding-left: 25px;
+	list-style-type: lower-alpha;
+}
+
+/***** floating images *****/
+figure.left-image, figure.right-image{
+	padding: 5px;
+	margin: 0 0 5px 0;
+	max-width: 253px;
+	
+	border: 2px solid var(--boxborder);
+}
+
+figure.left-image img, figure.right-image img{
+	max-width: 250px;
+	
+	border: 2px solid var(--boxborder);
+}
+
+figure.left-image{
+	float: left;
+	clear: left;
+	margin-right: 10px;
+}
+
+figure.right-image{
+	float: right;
+	clear: right;
+	margin-left: 10px;
+}
+
+/***** gallery *****/
+.gallery{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	column-gap: 10px;
+	row-gap: 10px;
+	margin-bottom: 10px;
+	align-items: start;
+}
+
+figure.gallery-image{
+	padding: 5px;
+	border: 2px solid var(--boxborder);
+	margin: 0;
+}
+
+figure.gallery-image img{
+	border: 2px solid var(--boxborder);
+	max-height: 200px;
+}
+
+figure.gallery-image figcaption{
+	width: 0;
+	min-width: 100%;
+}
+
+/***** notice boxes (for stubs, spoilers, etc) *****/
+
+.notice{
+	background-color: var(--boxbg);
+	padding: 10px;
+	margin: 0 auto 10px auto;
+	
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	
+	border: 2px solid var(--boxborder);
+}
+
+.notice p{
+	margin: 0 0 0 10px;
+	font-style: italic;
+}
+
+
+/********** FOOTER **********/
+
+footer{
+	grid-area: footer;
+	text-align: center;
+}
+
+/********** MEDIUM/SMALL SCREENS **********/
+
+@media (max-width:1000px) {
+	
+	/*turn the grid into a column*/
+	.container{
+		display: flex;
+		flex-direction: column;
+		margin-top: 0;
+		margin-bottom: 0;
+		min-height: 100vh;
+	}
+	
+	/*detach main from left side*/
+	main{
+		flex-grow: 1;
+		margin: 0 10px;
+		
+		border-radius: 10px;
+		border-right: 2px solid var(--mainborder);
+	}
+	
+	/*hide logo image*/
+	.logo-image{display: none;}
+	
+	/*make the sidebar navs horizontal*/
+	sidebar nav{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		
+		padding: 0;
+		margin: 0;
+		
+		border-radius: 0;
+		border-right: none;
+		border-top: none;
+	}
+	
+	sidebar nav h2{border-bottom: none;}
+	
+	sidebar nav ul{
+		list-style-type: none;
+		margin: 10px 0 0 0;
+		padding: 0;
+		margin: 0;
+		
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex-grow: 1;
+		justify-content: space-evenly;
+	}
+	
+	sidebar nav a{
+		padding: 4px;
+		border-radius: 4px;
+	}
+}
+
+/********** SMALL SCREENS **********/
+
+@media (max-width:576px) {
+	
+	/*make the sidebar nav headers appear above the links, for space*/
+	sidebar nav{
+		flex-direction: column;
+	}
+	
+	/*make the sidebar nav links spread out a bit more*/
+	sidebar nav ul{
+		margin: 0;
+		padding: 0;
+		align-self: stretch;
+	}
+	
+	/*make box rows vertical*/
+	.box-row{
+		flex-direction: column;
+		row-gap: 10px;
+	}
+	
+	/*unfloat a bunch of stuff*/
+	table.infobox{
+		float: none;
+		width: 90%;
+		margin: auto;
+	}
+	
+	ul.box-nav li{flex: 0 0 50%; margin: 0 auto 10px auto;}
+	
+	figure.left-image, figure.right-image{
+		float: none;
+		display: block;
+		margin: 0 auto 5px auto;
+	}
+}
