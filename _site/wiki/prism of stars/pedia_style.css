@@ -121,7 +121,7 @@ sidebar nav a{
 	display: block;
 	background-color: var(--mainbg);
 	color: white;
-	padding: 1px 2px 0px 2px;
+	padding: 1px 10px 0px 2px;
 	margin: 5px 0px 5px 0px;
 	text-decoration: none;
 	border-radius: 25px;
@@ -136,7 +136,7 @@ sidebar nav a{
 
 sidebar nav a:hover{
 	background-color: var(--baseline);
-	margin: 5px 10px 5px 10px;
+	margin: 5px 10px 5px 0px;
 	transition: color .2s, background-color .2s, margin .2s;
 }
 
