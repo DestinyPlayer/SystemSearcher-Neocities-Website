@@ -1,22 +1,22 @@
 /********** COLOR VARIABLES **********/
 :root{
 	/*text*/
-	--text: #FFF;
+	--text: #eee;
 	--link: #EEAA00;
-	--linkhover: #FFBB00;
-	--redlink: #FF0000;
+	--linkhover: #FFeebb;
+	--redlink: #aa0000;
 	--header: #FFF;
 	--boxheader: #FFF;
 	
 	/*borders and underlines*/
-	--mainborder: #666;
-	--boxborder: #666;
-	--headerunderline: #666;
+	--mainborder: #555;
+	--boxborder: #555;
+	--headerunderline: #555;
 	
 	/*backgrounds*/
 	--bodybg: #1128;
-	--mainbg: #001;
-	--boxbg: #320a;
+	--mainbg: #111;
+	--boxbg: #421a;
 	--boxheaderbg: #0000;
 	--sidebarlinkhoverbg: #ddd;
 
@@ -37,9 +37,10 @@
 
 
 body {
-	background-color: var(--mainbg);
+	background-color: #000;
 	color: var(--text);
-	font-family: Courier;
+	font-family: Tahoma;
+	font-size: 16px;
 	margin: 0;
 	padding: 0;
 }
@@ -141,25 +142,28 @@ sidebar nav ul{
 sidebar nav a{
 	display: block;
 	background-color: var(--mainbg);
-	color: white;
 	padding: 1px 10px 0px 2px;
 	margin: 5px 0px 5px 0px;
+	color: white;
 	text-decoration: none;
 	border-radius: 25px;
 	border: 2px solid;
+	border-color: var(--link);
 	font-family: aldrich-regular;
 	font-family: Aldrich;
 	text-align: right;
 	font-size: 20px;
-	transition: color .6s, background-color .6s, margin .6s;
+	transition: border-color .6s, color .6s, background-color .6s, margin .6s;
 	user-select: none;
 	cursor: pointer;
 }
 
 sidebar nav a:hover{
 	background-color: var(--baseline);
+	border-color: var(--linkhover);
+	color: white;
 	margin: 5px 10px 5px 0px;
-	transition: color .2s, background-color .2s, margin .2s;
+	transition: border-color .2s, color .2s, background-color .2s, margin .2s;
 }
 
 /********** MAIN **********/
@@ -273,6 +277,11 @@ details.toc ol{
 details.toc ol ol{
 	padding-left: 25px;
 	list-style-type: lower-alpha;
+}
+
+details.toc summary{
+	font-family: aldrich-regular;
+	font-family: Aldrich;
 }
 
 /***** floating images *****/
