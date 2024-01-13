@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://systemsearcher.neocities.org/screenshot.png" />
+    <meta property="twitter:card" content="summary_large_image">
+    <link href="https://systemsearcher.neocities.org/rss.txt" rel="alternate" type="application/rss+xml" title="System Searcher's Lair"/>
+    <title>System Searcher's Lair</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+  </head>
+  <body onload="secret()">
+    <script src="/scripts/fade.js"></script>
+    <div class="header">
+      <p class="secrettop" id="secretone" style="position: absolute; left: 10%; resize: none;">
+        
+      </p>
+      <p class="secrettop" id="secrettwo" style="position: absolute; right: 10%; resize: none;">
+        
+      </p>
+      <img src="name.png" alt="System Searcher" style="width: 90%; margin-bottom: 20px;">
+    </div>
+    
+    <!-- <div class="skip"></div> -->
+    
+    <div class="menu">
+      <!--<div class="innermain" style="background-color: var(--baseline); border-color: white;">
+        <div class="innermain" style="padding: 10px 0px 5px 0px; background-image: url(LogoAnimated.png); background-position: center; height: 300px; background-size: 270px; border-color: white;"></div>
+      </div>
+      <h-->
+      <h1>Navigation</h1>
+      <hr>
+      <div class="innermain">
+        <a href="home.html" target="iframe_a">
+          <!--<img src="/buttons/Home.png" class="button">-->
+          <p class="button">Home</p>
+        </a>
+        <a href="about.html" target="iframe_a">
+          <p class="button">About me</p>
+        </a>
+        <a href="blog.html" target="iframe_a">
+          <!--<img src="/buttons/Stuff I Sell.png" class="button">-->
+          <p class="button">Blog</p>
+        </a>
+          <hr>
+        <a href="market.html" target="iframe_a">
+          <!--<img src="/buttons/Stuff I Sell.png" class="button">-->
+          <p class="button">Stuff I Sell</p>
+        </a>
+          <hr>
+        <a href="artzone.html" target="iframe_a">
+          <!--<img src="/buttons/The Art Zone.png" class="button">-->
+          <p class="button">The Art Zone</p>
+        </a>
+        <a href="lewdzone.html" target="iframe_a">
+          <!--<img src="/buttons/The Lewd Zone.png" class="button">-->
+          <p class="button">The Lewd Zone</p>
+        </a>
+        <a href="writing.html" target="iframe_a">
+          <!--<img src="/buttons/Writing Zone.png" class="button">-->
+          <p class="button">Writing Zone</p>
+        </a>
+      </div>
+      <hr>
+      <div class="innermain">
+        <h3>Discord Message</h3>
+        <input type="text" id="discord-name" maxlength=100 placeholder="Your name here" class="innermain_dark"
+          style="color: white; resize: none; padding: 5px; height: 30px; margin-bottom: 0; text-align: center; font-family: aldrich-regular; width: 100%; margin-left: 0; margin-right: 9;">
+        <textarea rows="4" cols="30" id="discord-field" maxlength=2000 placeholder="Here you can tell me something, and it will appear in my personal Discord server!" class="innermain_dark"
+          style="color: white; padding: 5px; resize: vertical; max-height: 350px; min-height: 100px; width: 100%; margin: 0; margin-top: 5px;"></textarea>
+        <p class="button" id="send">Send</p>
+        <p style="text-align: justify; margin-left: 10px; margin-right: 10px; font-size: 10px; color: #ffffff33 !important;">Thank you <a href="https://learn.sadgrl.online/create-a-form-on-neocities-using-discord/" style="text-transform: none;">learn.sadgirl.online</a> for the guide on how to do this.</p>
+        <div id='ncring'>
+          <script type="text/javascript" src="https://neocreatives.neocities.org/onionring-variables.js"></script>
+          <script type="text/javascript" src="https://neocreatives.neocities.org/onionring-widget.js"></script>
+        </div>             
+      </div>
+    </div>
+    
+    <div class="main">
+      <div class="innermain">
+        <iframe class="iframescreen" src="home.html" id="iframe_a" name="iframe_a" title="Main Page" onload="fade()"></iframe>
+      </div>
+    </div>
+    
+    <div class="side">
+      <div class="innermain">
+        <h1>
+          News
+        </h1>
+        <hr>
+        <iframe class="iframenews" src="news.html" name="iframe_n" title="News" style="height: 710px !important;"></iframe>
+        <hr>
+      </div>
+    </div>
+    
+    <!-- <div class="skip"></div> -->
+    
+    <script>
+      document.getElementById('send').onclick = function() {
+          var request = new XMLHttpRequest();
+          request.open("POST", "https://discord.com/api/webhooks/1016309801564786688/DPL5cNZBS_8v5jRIkMo55tZeOLXca7ZaGmHRIwp_eX7ccfonWoG0sxpUS9S5aCLV9WJ2");
+              request.setRequestHeader('Content-type', 'application/json');
+          var params = {
+              username: document.getElementById("discord-name").value, // you can make this whatever you want
+              content: document.getElementById("discord-field").value
+          }
+          if (document.getElementById("discord-name").value != "") {
+            if (document.getElementById("discord-field").value != "") {
+              request.send(JSON.stringify(params));
+              
+              // below clears the form fields after submission
+              document.getElementById("discord-field").value = '';
+              // below gives your user some helpful feedback letting them know their message has been sent
+              alert('Thanks, your message has been sent.');
+            } else {
+              alert("Please enter some sort of message! The bot can't read nothing.");
+            }
+          } else {
+            alert('Please enter your name before sending anything.');
+          }
+      }
+    </script>
+    <script>
+      const date = new Date();
+      var day = "/week/"+(date.getDay()).toString()+".png";
+      
+      document.body.style.backgroundImage = "url("+day+")";
+    </script>
+    <script src="/scripts/secret.js"></script>
+    <script>
+      if(navigator.getEnvironmentIntegrity!==undefined)
+        document.querySelector('body').innerHTML='<h1>Your browser contains Google DRM</h1>"Web Environment Integrity" is a Google euphemism for a DRM that is designed to prevent ad-blocking. In support of an open web, this website does not function with this DRM. Please install a browser such as <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> that respects your freedom and supports ad blockers.';
+    </script>
+  </body>
+</html>
