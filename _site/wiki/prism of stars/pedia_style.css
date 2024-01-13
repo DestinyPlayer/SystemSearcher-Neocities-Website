@@ -85,6 +85,14 @@ a.redlink{text-decoration: none; color: var(--redlink);}
 	min-height: Calc(100vh - 15px);
 }
 
+/********** HEADER BAR **********/
+headerbar {
+	background-image: url(Header.png);
+}
+
+headerbar h1{
+	text-align: center;
+}
 /********** SIDEBAR **********/
 
 sidebar{
