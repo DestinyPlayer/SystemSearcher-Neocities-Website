@@ -172,8 +172,13 @@ sidebar nav a:hover{
 	background-color: var(--baseline);
 	border-color: var(--linkhover);
 	color: white;
-	margin: 5px 10px 5px 0px;
+	margin: 5px 10px 5px -20px;
 	transition: border-color .2s, color .2s, background-color .2s, margin .2s;
+}
+
+sidebar nav a:active{
+	margin: 5px 50px 5px -20px;
+	transition: margin .2s;
 }
 
 /********** MAIN **********/
