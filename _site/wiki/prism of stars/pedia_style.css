@@ -378,6 +378,10 @@ figure.gallery-image figcaption{
 	height: 40px;
 }
 
+.notice.nsfw{
+	background-color: #800a;
+}
+
 
 /********** FOOTER **********/
 
