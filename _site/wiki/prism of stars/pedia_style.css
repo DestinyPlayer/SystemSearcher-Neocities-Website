@@ -489,7 +489,7 @@ footer{
 	
 	ul.box-nav li{flex: 0 0 50%; margin: 0 auto 10px auto;}
 	
-	figure.left-image, figure.right-image{
+	figure.left-image, figure.right-image, figure.center-image{
 		float: none;
 		display: block;
 		margin: 0 auto 5px auto;
