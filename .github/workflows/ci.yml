@@ -1,10 +1,7 @@
 name: Build site
 
 # only run on changes to master
-on:
-  push:
-    branches:
-      - master
+on: [push, pull_request]
 
 concurrency: # prevent concurrent deploys doing strange things
   group: deploy-to-neocities
