@@ -48,7 +48,8 @@ a{color: var(--link); text-decoration: underline;}
 a:hover{color: var(--linkhover);}
 
 h1, h2, h3, h4, h5{
-	margin-top: 0;   
+	margin-top: 0;
+	font-family: aldrich-regular;
 }
 
 h1, h2{
@@ -356,7 +357,7 @@ footer{
 	}
 	
 	/*hide logo image*/
-	.logo-image{display: none;}
+	.logo-image{display: none; }
 	
 	/*make the sidebar navs horizontal*/
 	sidebar nav{
