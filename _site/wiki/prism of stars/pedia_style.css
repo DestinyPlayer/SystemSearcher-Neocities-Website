@@ -176,11 +176,6 @@ sidebar nav a:hover{
 	transition: border-color .2s, color .2s, background-color .2s, margin .2s;
 }
 
-sidebar nav a:active{
-	margin: 5px 50px 5px -20px;
-	transition: margin .2s;
-}
-
 /********** MAIN **********/
 
 main{
