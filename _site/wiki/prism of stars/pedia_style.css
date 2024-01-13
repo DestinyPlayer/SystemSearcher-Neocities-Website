@@ -82,6 +82,11 @@ a.redlink{text-decoration: none; color: var(--redlink);}
 	user-select: none;
 	cursor: pointer;
 }
+.button:hover {
+	background-color: var(--baseline);
+	margin: 5px 10px 5px 10px;
+	transition: color .2s, background-color .2s, margin .2s;
+}
 
 
 /********** GRID CONTAINER **********/
