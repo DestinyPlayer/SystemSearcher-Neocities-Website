@@ -127,7 +127,7 @@ sidebar nav a{
 	border-radius: 25px;
 	border: 2px solid;
 	font-family: aldrich-regular;
-	text-align: center;
+	text-align: right;
 	font-size: 20px;
 	transition: color .6s, background-color .6s, margin .6s;
 	user-select: none;
