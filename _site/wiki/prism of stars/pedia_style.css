@@ -102,7 +102,7 @@ a.redlink:hover{color: var(--redlinkhover);}
 	padding: 0px;
 	margin-bottom: 10px;
 	flex: 1 1 0;
-	border-radius: 10px;
+	border-radius: 0px 0px 10px 10px;
 	border: 2px solid var(--boxborder);
 }
 
