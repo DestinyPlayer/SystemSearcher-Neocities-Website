@@ -1,6 +1,14 @@
 name: Build site
 
-on: [push, pull_request]
+# only run on changes to master
+on:
+  push:
+    branches:
+      - master
+
+concurrency: # prevent concurrent deploys doing strange things
+  group: deploy-to-neocities
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -24,4 +32,4 @@ jobs:
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: false
-        dist_dir: _site
+        dist_dir: public
