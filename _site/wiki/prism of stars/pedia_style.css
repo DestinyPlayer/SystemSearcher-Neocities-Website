@@ -75,9 +75,13 @@ img{max-width: 100%}
 a.redlink{text-decoration: underline; color: var(--redlink);}
 a.redlink:hover{color: var(--redlinkhover);}
 
+.aldrich{font-family: aldrich-regular; font-family: Aldrich;}
+
 .big-text{font-size: large;}
 
 .clear-both{clear: both;}
+
+.noborder{border-style: none !important; background-color: none !important;}
 /********** GRID CONTAINER **********/
 
 .container{
