@@ -13,16 +13,14 @@
   </head>
   
   <body>
-	
-	<!--page container. make sure everything is inside this-->
+
+	  <!--page container. make sure everything is inside this-->
 	  <div class="container">
 
 		  <!--sidebar-->
 		  <script src="javascript/include-html.js"></script>
 
 		  <sidebar w3-include-html="components/sidebar.html"></sidebar>
-
-		  <script>includeHTML()</script>
 
 		  <!--main-->
 		  <main>
@@ -86,12 +84,8 @@
 
 		  </main><!--end of main-->
 		  <!--footer-->
-		  <footer>
-
-			  <p>Powered by Pedia | <a href="https://squidknees.neocities.org/">squidknees - author of Pedia</a> | <a href="">Link</a> </p>
-
-		  </footer><!--end of footer-->
+		  <footer w3-include-html="components/underbar.html"></footer>
 	  </div><!--end of page container-->
-
-	</body>
+	  <script>includeHTML()</script>
+  </body>
 </html>
