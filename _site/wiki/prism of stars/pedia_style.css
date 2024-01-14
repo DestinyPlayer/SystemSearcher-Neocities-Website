@@ -244,6 +244,10 @@ ul.box-nav a{
 	/*align-items: center;*/
 }
 
+ul.box-nav h2{
+	margin-bottom: 0px;
+}
+
 /***** changelog *****/
 
 ul.changelog {
