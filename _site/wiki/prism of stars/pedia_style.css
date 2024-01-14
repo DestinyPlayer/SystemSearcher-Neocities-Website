@@ -235,6 +235,7 @@ ul.box-nav{
 
 ul.box-nav li{
 	flex: 1 1 0;
+	margin-bottom: 4px;
 }
 
 ul.box-nav a{
