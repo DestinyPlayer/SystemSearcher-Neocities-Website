@@ -20,7 +20,7 @@
 	--mainbg: #222;
 	--boxbg: #421a;
 	--boxheaderbg: #0003;
-	--customheaderbg: #f805;
+	--customheaderbg: #0003;
 	--sidebarlinkhoverbg: #ddd;
 	--logo: /face.gif;
 }
@@ -82,7 +82,7 @@ a.redlink:hover{color: var(--redlinkhover);}
 
 .clear-both{clear: both;}
 
-.noborder{border-style: none !important; background-color: none !important;}
+.noborder{border-style: none !important;}
 
 .bgfy{background-color: var(--customheaderbg) !important;}
 /********** GRID CONTAINER **********/
