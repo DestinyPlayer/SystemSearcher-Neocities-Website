@@ -93,8 +93,7 @@ a.redlink:hover{color: var(--redlinkhover);}
 
 .secret {
 	font-family: angruniccl;
-	margin: 0px;
-	padding: 0px;
+	margin-left: 10px;
 	user-select: none;
 	font-size: 20px;
 }
