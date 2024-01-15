@@ -34,6 +34,11 @@
 	src: url(/fonts/aldrich.woff);
 }
 
+@font-face {
+	font-family: 'angruniccl';
+	src: url(/fonts/angruniccl.woff);
+}
+
 /********** BASIC STYLING **********/
 
 
@@ -86,6 +91,14 @@ a.redlink:hover{color: var(--redlinkhover);}
 
 .bgfy{background-color: var(--customheaderbg) !important;}
 
+.secret {
+	font-family: angruniccl;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	user-select: none;
+	font-size: 20px;
+}
 
 /********** GRID CONTAINER **********/
 
