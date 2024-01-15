@@ -238,6 +238,10 @@ ul.box-nav li{
 	margin-bottom: 4px;
 }
 
+.aldrich li {
+	list-style-type: square;
+}
+
 ul.box-nav a{
 	display: flex;
 	flex-direction: column;
