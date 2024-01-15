@@ -11,7 +11,7 @@ function secret() {
     "Kobalstromo iz adorabl",
     "Brutali efishent self",
     "Bip bip aim ae ship",
-    "E snoumaen kilo",
+    "No elvs tu bi faund hir",
     "Efs in chat fo"
   ];
   const secretlist2 = [
@@ -20,7 +20,7 @@ function secret() {
     "Bat dont tel him ai seid zaet",
     "Replikeiting Mekanism ov vor",
     "Fak fak aim ae dak",
-    "Dai tinz ae parlis",
+    "Okay meibi sam elvs if iur nais",
     "Ol ze pur bastads"
   ];
   secret01.innerHTML = secretlist1[day];
