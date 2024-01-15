@@ -12,9 +12,10 @@
 	
   </head>
   
-  <body>
+  <body onload="secret()">
 	  <div class="container">
 		  <script src="javascript/include-html.js"></script>
+		  <script src="/scripts/secret.js"></script>
 
 		  <sidebar w3-include-html="components/sidebar.html"></sidebar>
 
@@ -33,7 +34,7 @@
 						<p>No elves to be found here! Okay, maybe some elves if you're nice.</p>
 						<div class="box">
 							<h3>Message of the day</h3>
-							<p class="secret">Hello, this is some bulshit</p>
+							<p class="secret"><span id="secretone"></span> <span id="secrettwo"></span></p>
 						</div>
 					</div>
 				    <div class="box" w3-include-html="components/updates.html"></div>
