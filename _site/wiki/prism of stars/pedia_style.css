@@ -243,7 +243,6 @@ ul.box-nav li{
 ul.box-nav li figure{
 	border-style: none;
 	background-color: var(--customheaderbg);
-	border-right: 1px solid white;
 }
 
 .aldrich li {
