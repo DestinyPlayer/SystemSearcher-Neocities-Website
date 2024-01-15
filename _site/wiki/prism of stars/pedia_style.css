@@ -85,6 +85,8 @@ a.redlink:hover{color: var(--redlinkhover);}
 .noborder{border-style: none !important;}
 
 .bgfy{background-color: var(--customheaderbg) !important;}
+
+
 /********** GRID CONTAINER **********/
 
 .container{
@@ -236,6 +238,12 @@ ul.box-nav{
 ul.box-nav li{
 	flex: 1 1 0;
 	margin-bottom: 4px;
+}
+
+ul.box-nav li figure{
+	border-style: none;
+	background-color: var(--customheaderbg);
+	border-right: 1px solid white;
 }
 
 .aldrich li {
