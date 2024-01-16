@@ -3,10 +3,10 @@ import datetime
 date = datetime.datetime.now()
 datestr = date.strftime("%Y/%m/%d %H:%M")
 
-f = open("_site/wiki/prismofstars/components/updates.html", "r")
+f = open("_site/wiki/prismofstars/components/underbar.html", "r")
 text = f.read()
 f.close()
-f = open("_site/wiki/prismofstars/components/updates.html", "w")
+f = open("_site/wiki/prismofstars/components/underbar.html", "w")
 
 if "LASTUPDATE" in text:
     print("Found LASTUPDATE! Replacing with date...")
