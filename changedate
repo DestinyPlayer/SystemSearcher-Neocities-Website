@@ -1,0 +1,2 @@
+DATE := $(shell /bin/date)
+	sed -i 's/__LAST_UPDATE__/$(DATE)/g' '_site\wiki\prismofstars\components\updates.html'
