@@ -294,7 +294,7 @@ ul.box-nav h2{
 
 ul.changelog {
 	overflow-y: scroll;
-	max-height: 100px;
+	max-height: 180px;
 }
 
 /***** infobox *****/
