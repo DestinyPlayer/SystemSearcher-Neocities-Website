@@ -85,7 +85,7 @@ a img {
 }
 a img:hover{
 	transition: filter .4s;
-	filter: blur(1px);
+	filter: brightness(80%);
 }
 
 .aldrich {
