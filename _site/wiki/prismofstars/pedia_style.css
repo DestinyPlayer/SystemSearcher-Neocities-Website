@@ -293,7 +293,7 @@ ul.box-nav h2{
 /***** changelog *****/
 
 ul.changelog {
-
+	overflow-y: scroll;
 }
 
 /***** infobox *****/
