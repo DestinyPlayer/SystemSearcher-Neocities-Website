@@ -272,6 +272,10 @@ ul.box-nav li figure{
 	list-style-type: square;
 }
 
+ul{
+	margin-top: 0;
+}
+
 ul.box-nav a{
 	display: flex;
 	flex-direction: column;
