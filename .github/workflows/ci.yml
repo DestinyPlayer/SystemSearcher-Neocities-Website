@@ -14,8 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - run: make
-    
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v1
       with:
