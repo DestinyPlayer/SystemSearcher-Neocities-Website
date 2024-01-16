@@ -239,6 +239,10 @@ main{
 	border: 2px solid var(--boxborder);
 }
 
+.unpad{
+	padding: 0px 0px 10px 0px;
+}
+
 .box h1, .box h2, .box h3, .box h4, .box h5{
 	color: var(--boxheader);
 	background-color: var(--boxheaderbg);
