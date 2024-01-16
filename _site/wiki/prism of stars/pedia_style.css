@@ -62,8 +62,7 @@ a:hover{color: var(--linkhover);}
 
 h1, h2, h3, h4, h5 {
 	margin-top: 0;
-	font-family: aldrich-backup;
-	font-family: Aldrich;
+	font-family: aldrich-backup, Aldrich;
 }
 
 h1, h2{
@@ -87,8 +86,7 @@ a.redlink{text-decoration: underline; color: var(--redlink);}
 a.redlink:hover{color: var(--redlinkhover);}
 
 .aldrich {
-	font-family: aldrich-backup;
-	font-family: Aldrich;
+	font-family: aldrich-backup, Aldrich;
 }
 
 .big-text{font-size: large;}
@@ -187,8 +185,7 @@ sidebar nav a{
 	border-radius: 0px 25px 25px 0px;
 	border: 2px solid;
 	border-color: var(--link);
-	font-family: aldrich-backup;
-	font-family: Aldrich;
+	font-family: aldrich-backup, Aldrich;
 	text-align: right;
 	font-size: 20px;
 	transition: border-color .6s, color .6s, background-color .6s, margin .6s;
@@ -337,10 +334,9 @@ details.toc ol ol{
 	list-style-type: lower-alpha;
 }
 
-details.toc summary{
-	font-family: aldrich-backup;
-	font-family: Aldrich;
-}
+	details.toc summary {
+		font-family: aldrich-backup, Aldrich;
+	}
 
 /***** floating images *****/
 figure.left-image, figure.right-image{
