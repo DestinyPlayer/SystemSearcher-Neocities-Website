@@ -98,7 +98,9 @@ a img:hover{
 
 .noborder{border-style: none !important;}
 
-.bgfy{background-color: var(--customheaderbg) !important;}
+.bgfy{
+	background-color: var(--customheaderbg) !important;
+}
 
 .secret {
 	font-family: angruniccl;
