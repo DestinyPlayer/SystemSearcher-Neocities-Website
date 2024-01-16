@@ -76,6 +76,8 @@ img{max-width: 100%}
 /********** UTILITY CLASSES **********/
 
 .text-center{text-align: center;}
+.text-right{text-align: right; float: right;}
+.text-left{text-align: left; float: left;}
 
 a.redlink{text-decoration: underline; color: var(--redlink);}
 a.redlink:hover{color: var(--redlinkhover);}
