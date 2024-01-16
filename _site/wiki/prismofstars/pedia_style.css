@@ -80,6 +80,13 @@ img{max-width: 100%}
 a.redlink{text-decoration: underline; color: var(--redlink);}
 a.redlink:hover{color: var(--redlinkhover);}
 
+a.img{
+
+}
+a.img.hover{
+	filter: blur(2px);
+}
+
 .aldrich {
 	font-family: "Aldrich", "aldrich-local", sans-serif;
 }
