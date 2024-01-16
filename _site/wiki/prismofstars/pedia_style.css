@@ -295,6 +295,12 @@ ul.box-nav h2{
 ul.changelog {
 	overflow-y: scroll;
 	max-height: 180px;
+	-ms-overflow-style: none; 
+	scrollbar-width: none;
+}
+
+ul.changelog::-webkit-scrollbar {
+	display: none;
 }
 
 /***** infobox *****/
