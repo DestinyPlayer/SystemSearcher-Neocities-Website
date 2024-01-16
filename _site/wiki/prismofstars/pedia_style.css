@@ -80,11 +80,11 @@ img{max-width: 100%}
 a.redlink{text-decoration: underline; color: var(--redlink);}
 a.redlink:hover{color: var(--redlinkhover);}
 
-figure.a{
+a img{
 
 }
-figure.a:hover{
-	filter: blur(5px);
+a img:hover{
+	filter: blur(2px);
 }
 
 .aldrich {
