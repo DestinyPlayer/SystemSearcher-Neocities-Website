@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - run: sed -i 's/__LAST_UPDATE__/$(shell /bin/date)/g' '_site\wiki\prismofstars\components\updates.html'
+    - run: sed -i 's/LASTUPDATE/$(shell /bin/date)/g' '_site\wiki\prismofstars\components\updates.html'
     
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v1
