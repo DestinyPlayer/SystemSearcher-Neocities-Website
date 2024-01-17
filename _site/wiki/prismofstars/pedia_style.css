@@ -63,12 +63,12 @@ a{color: var(--link); text-decoration: underline;}
 a:hover{color: var(--linkhover);}
 
 h1, h2, h3, h4, h5 {
+	color: var(--header);
 	margin-top: 0;
 	font-family: "Aldrich", "aldrich-local", sans-serif;
 }
 
 h1, h2{
-	color: var(--header); 
 	border-bottom: 2px solid var(--headerunderline);
 	overflow: hidden;
 	clear: left;
