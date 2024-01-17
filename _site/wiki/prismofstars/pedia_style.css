@@ -52,7 +52,7 @@ body {
 	padding: 0;
 }
 
-underlink {
+.underlink {
 	font-family: Tahoma;
 	font-size: 16px;
 	padding-left: 20px;
