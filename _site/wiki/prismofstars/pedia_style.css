@@ -241,7 +241,7 @@ main{
 	padding: 10px;
 	background-color: var(--boxbg);
 	flex: 1 1 0;
-	
+	background-image: linear-gradient(var(--boxbg),var(--bodybg);
 	border-radius: 10px;
 	border: 2px solid var(--boxborder);
 }
