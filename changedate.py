@@ -15,5 +15,7 @@ if "LASTUPDATE" in text:
 else:
     print("No LASTUPDATE elements found. File will stay the same.")
 
+print(text)
+
 f.write(text)
 f.close()
