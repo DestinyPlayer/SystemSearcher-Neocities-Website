@@ -1,7 +1,7 @@
 import datetime
 
 date = datetime.datetime.now()
-datestr = date.strftime("%Y/%m/%d")
+datestr = date.strftime("%Y/%m/%d %H:%M")
 
 f = open("_site/wiki/prismofstars/components/underbar.html", "r")
 text = f.read()
