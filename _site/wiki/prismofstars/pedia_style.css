@@ -87,8 +87,8 @@ img{max-width: 100%}
 .text-right{text-align: right; float: right;}
 .text-left{text-align: left; float: left;}
 
-a.redlink{text-decoration: underline; color: var(--redlink);}
-a.redlink:hover{color: var(--redlinkhover);}
+a.redlink{text-decoration: underline; color: var(--redlink) !important;}
+a.redlink:hover{color: var(--redlinkhover) !important;}
 
 a img {
 	transition: filter .4s;
