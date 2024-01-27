@@ -147,6 +147,10 @@ a img:hover{
 	border: 2px solid var(--boxborder);
 }
 
+.headlogo img{
+	color: #ffffff55;
+}
+
 .headlogo h1{
 	text-align: right;
 	font-size: 100px;
