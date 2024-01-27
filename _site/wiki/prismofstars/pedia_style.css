@@ -141,6 +141,7 @@ a img:hover{
 	background-position: left left;
 	background-color: #0000;
 	padding: 20px;
+	padding-top: 30px;
 	margin-bottom: 10px;
 	flex: 1 1 0;
 	border-radius: 10px;
@@ -149,8 +150,7 @@ a img:hover{
 
 .headlogo img{
 	opacity: 50%;
-	margin-left: auto;
-	margin-right: 0px;
+	float: right;
 }
 
 .headlogo h1{
