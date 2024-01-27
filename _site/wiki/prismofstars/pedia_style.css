@@ -146,14 +146,12 @@ a img:hover{
 	flex: 1 1 0;
 	border-radius: 10px;
 	border: 2px solid var(--boxborder);
-	content: "";
-	clear: both;
-	display: table;
 }
 
 .headlogo img{
 	opacity: 50%;
-	float: right;
+	display: block;
+	margin-left: auto;
 }
 
 .headlogo h1{
