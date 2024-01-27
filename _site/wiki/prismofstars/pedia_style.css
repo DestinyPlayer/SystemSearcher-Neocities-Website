@@ -148,7 +148,9 @@ a img:hover{
 }
 
 .headlogo img{
-	color: #ffffff55;
+	opacity: 50px;
+	margin-left: auto;
+	margin-right: 0px;
 }
 
 .headlogo h1{
