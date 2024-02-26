@@ -1048,7 +1048,7 @@
 }
 
 #HCB_comment_box .h3 {
-   font-size: 25px;
+   font-size: 25px !important;
 }
 
 .comment {
