@@ -1047,7 +1047,7 @@
     border-radius: 15px;
 }
 
-.likes {
+.comment .likes {
     position: absolute;
     top: 0;
     right: 50px;

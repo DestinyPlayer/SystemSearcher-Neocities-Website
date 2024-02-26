@@ -148,15 +148,6 @@ a:hover {
   image-rendering: crisp-edges;
 }
 
-#comment {
-    background-color: #22222299;
-    left: 50%;
-    margin: 10px 5px 10px 5px;
-    padding: 0px 5px 0px 5px;
-    border: 2px solid #666666;
-    border-radius: 15px;
-}
-
 .image-base {
   width: 100%;
   padding: 10px;
