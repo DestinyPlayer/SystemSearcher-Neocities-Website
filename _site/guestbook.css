@@ -1047,6 +1047,14 @@
     border-radius: 15px;
 }
 
+#HCB_comment_box #HCB_comment_form_box {
+    background-color: #22222299;
+    margin: 0px 5px 5px 5px;
+    padding: 0px 5px 10px 5px;
+    border: 2px solid #666666;
+    border-radius: 15px;
+}
+
 #HCB_comment_box .comment .likes {
     position: absolute;
     top: 0;
