@@ -1047,8 +1047,8 @@
     border-radius: 15px;
 }
 
-.comment .likes {
+#HCB_comment_box .comment .likes {
     position: absolute;
     top: 0;
-    right: 50px;
+    right: 50px !important;
 }
