@@ -1042,6 +1042,7 @@
 .comment {
     background-color: #22222299;
     margin: 0px 5px 0px 5px;
+    margin-bottom: 1em !important;
     padding: 0px 5px 10px 5px;
     border: 2px solid #666666;
     border-radius: 15px;
