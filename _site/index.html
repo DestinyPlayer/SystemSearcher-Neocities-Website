@@ -109,7 +109,29 @@
 
       <!-- <div class="skip"></div> -->
       <script>
-          document.getElementById('send').onclick = discordMsgr()
+          document.getElementById('send').onclick = function () {
+              var request = new XMLHttpRequest();
+              request.open("POST", CHAT_WEBHOOK);
+              request.setRequestHeader('Content-type', 'application/json');
+              var params = {
+                  username: document.getElementById("discord-name").value, // you can make this whatever you want
+                  content: document.getElementById("discord-field").value
+              }
+              if (document.getElementById("discord-name").value != "") {
+                  if (document.getElementById("discord-field").value != "") {
+                      request.send(JSON.stringify(params));
+
+                      // below clears the form fields after submission
+                      document.getElementById("discord-field").value = '';
+                      // below gives your user some helpful feedback letting them know their message has been sent
+                      alert('Thanks, your message has been sent.');
+                  } else {
+                      alert("Please enter some sort of message! The bot can't read nothing.");
+                  }
+              } else {
+                  alert('Please enter your name before sending anything.');
+              }
+          }
       </script>
       <script>
           const date = new Date();
