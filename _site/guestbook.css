@@ -1048,14 +1048,7 @@
 }
 
 #HCB_comment_box .h3 {
-   background-color: var(--baseline);
-   padding: 2px 0px 2px 0px;
-   margin: 7px 2px 5px 2px;
-   text-decoration: none;
-   border-radius: 25px;
-   border: 2px solid;
-   font-family: aldrich-regular;
-   text-align: center;
+   font-size: 25px;
 }
 
 .comment {
