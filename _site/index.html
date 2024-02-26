@@ -107,11 +107,11 @@
     </div>
     
     <!-- <div class="skip"></div> -->
-    
+    <script src="/scripts/random.js"></script>
     <script>
       document.getElementById('send').onclick = function() {
           var request = new XMLHttpRequest();
-          request.open("POST", "https://discord.com/api/webhooks/1016309801564786688/DPL5cNZBS_8v5jRIkMo55tZeOLXca7ZaGmHRIwp_eX7ccfonWoG0sxpUS9S5aCLV9WJ2");
+          request.open("POST", CHAT_WEBHOOK);
               request.setRequestHeader('Content-type', 'application/json');
           var params = {
               username: document.getElementById("discord-name").value, // you can make this whatever you want

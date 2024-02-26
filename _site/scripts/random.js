@@ -1,0 +1,1 @@
+CHAT_WEBHOOK = "https://discord.com/api/webhooks/1016309801564786688/DPL5cNZBS_8v5jRIkMo55tZeOLXca7ZaGmHRIwp_eX7ccfonWoG0sxpUS9S5aCLV9WJ2";
