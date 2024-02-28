@@ -10,7 +10,7 @@ function readImages() {
     }
 }
 
-<div class="image-button" style="width:40%;">
-    <img src="/graphics art/sigils/Z/Finalizer 1.png" class="image-base">
-    <img src="/graphics art/sigils/Z/Finalizer 1.png" class="image-content">
-</div>
+//<div class="image-button" style="width:40%;">
+//    <img src="/graphics art/sigils/Z/Finalizer 1.png" class="image-base">
+//    <img src="/graphics art/sigils/Z/Finalizer 1.png" class="image-content">
+//</div>
