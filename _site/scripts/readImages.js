@@ -23,7 +23,7 @@ function readImages(pixelToggle) {
         contentImg.classList.add('image-content');
         contentImg.src = images[i];
         if (pixelToggle) {
-            baseImg.style = "height: 70%;"
+            contentImg.style = "height: 70%;"
         }
         buttonDiv.appendChild(contentImg);
 

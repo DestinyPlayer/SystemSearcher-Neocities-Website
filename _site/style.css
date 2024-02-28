@@ -163,6 +163,7 @@ a:hover {
   opacity: 0;
   pointer-events: none;
   position: fixed;
+  z-index: 99;
   left: 0px;
   top: 10px;
   background-color: #0009;
