@@ -1,12 +1,34 @@
 const filler = '<div class="image-button">\n<img src="IMAGEHERE" class="image-base">\n<img src="IMAGEHERE" class="image-content">\n</div>\n\n'
 
 var textFill = ""
-function readImages() {
+function readImages(pixelToggle) {
     target = document.getElementById("fillImages")
+    //for (let i = 0; i < images.length; i++) {
+    //    textFill = textFill + filler.replace(/IMAGEHERE/g, images[i]);
+    //}
+    //target.innerHTML = textFill;
     for (let i = 0; i < images.length; i++) {
-        textFill = textFill + filler.replace(/IMAGEHERE/g, images[i]);
+        var buttonDiv = document.createElement('div');
+        buttonDiv.classList.add('image-button');
+
+        var baseImg = document.createElement('img');
+        baseImg.classList.add('image-base');
+        if (pixelToggle) {
+            baseImg.style = "image-rendering: pixelated;"
+        }
+        baseImg.src = images[i];
+        buttonDiv.appendChild(baseImg);
+
+        if (!pixelToggle) {
+            var contentImg = document.createElemnt('img');
+            contentImg.classList.add('image-content');
+            contentImg.src = images[i];
+            buttonDiv.appendChild(contentImg);
+        }
+
+        target.appendChild(buttonDiv);
     }
-    target.innerHTML = textFill;
+    
 }
 
 //<div class="image-button" style="width:40%;">

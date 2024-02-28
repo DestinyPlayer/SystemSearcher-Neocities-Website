@@ -152,7 +152,6 @@ a:hover {
 .image-base {
   width: 200px;
   padding: 10px;
-  image-rendering: pixelated;
 }
 
 .image-content {
