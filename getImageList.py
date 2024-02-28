@@ -17,7 +17,7 @@ for i in range(len(foldersPaths)):
     
     f.write("const images = [\n")
     for j in range(len(curContent)):
-        if curContent[i].includes(".png"):
+        if ".png" in curContent[i]:
             if j == len(curContent)-1:
                 f.write('   "'+basePath+foldersPaths[i]+"/"+curContent[j]+'"\n')
             else:
