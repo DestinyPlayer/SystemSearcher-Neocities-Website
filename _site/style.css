@@ -177,7 +177,6 @@ a:hover {
   transition: opacity .5s;
   border: 2px solid white;
   border-radius: 25px;
-  image-rendering: pixelated;
 }
 
 .image-button:hover .image-content {
