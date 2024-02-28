@@ -1,7 +1,7 @@
 import os
 
-basePath = "/graphics art/"
-endPath = "/fileList/"
+basePath = "graphics art/"
+endPath = "fileList/"
 foldersPaths = [
     "kitbashes",
     "logos",
