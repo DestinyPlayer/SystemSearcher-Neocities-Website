@@ -22,7 +22,7 @@ threedFoldersPaths = [
 def rollThrough(path1,path2):
     for i in range(len(path2)):
         curFolder = "_site"+path1+path2[i]
-        curContent = os.listdir(curFolder)
+        curContent = os.listdir(curFolder).sort()
         f = open("_site"+endPath+path2[i]+".js", "w")
         
         f.write("const images = [\n")
