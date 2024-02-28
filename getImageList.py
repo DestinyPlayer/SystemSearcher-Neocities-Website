@@ -6,6 +6,7 @@ endPath = "/fileList/"
 foldersPaths = [
     "logos",
     "sigils",
+    "sigils/Destiny Pack 01",
     "misc",
     "misc/Touhou",
     "maps",
@@ -14,6 +15,7 @@ foldersPaths = [
 ]
 threedFoldersPaths = [
     "safe/3d models",
+    "safe/3d models/nokama",
     "lewd/posters"
 ]
 
