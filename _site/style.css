@@ -149,8 +149,10 @@ a:hover {
 }
 
 .image-base {
-  width: 100%;
+  width: 20%;
+  height: 20%;
   padding: 10px;
+  image-rendering: pixelated;
 }
 
 .image-content {
