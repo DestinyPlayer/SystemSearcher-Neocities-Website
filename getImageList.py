@@ -20,8 +20,8 @@ for i in range(len(foldersPaths)):
     f.write("const images = [\n")
     for j in range(len(curContent)):
         if j == len(curContent)-1:
-            f.write('   "'+basePath+curContent[j]+'"\n')
+            f.write('   "/'+basePath+curContent[j]+'"\n')
         else:
-            f.write('   "'+basePath+curContent[j]+'",\n')
+            f.write('   "/'+basePath+curContent[j]+'",\n')
     f.write("];")
     f.close()
