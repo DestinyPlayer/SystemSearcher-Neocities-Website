@@ -159,6 +159,7 @@ a:hover {
   margin-left: -50%;
   top: 50%;
   margin-top: -50%;
+  object-fit: cover;
 }
 
 .image-content {
