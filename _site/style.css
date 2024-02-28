@@ -152,8 +152,11 @@ a:hover {
 }
 
 .image-base {
+  display: block;
   padding: 10px;
   width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .image-content {
