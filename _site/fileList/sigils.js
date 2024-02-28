@@ -1,2 +1,21 @@
 const images = [
+   "/graphics art/sigils/Bones ED.png",
+   "/graphics art/sigils/Celtic Circle.png",
+   "/graphics art/sigils/Circle 01 ED.png",
+   "/graphics art/sigils/Eilian Circle.png",
+   "/graphics art/sigils/Finalizer 1.png",
+   "/graphics art/sigils/Finalizer 2.png",
+   "/graphics art/sigils/Finalizer 3.png",
+   "/graphics art/sigils/Finalizer 4.png",
+   "/graphics art/sigils/Finalizer 5.png",
+   "/graphics art/sigils/Finalizer 6.png",
+   "/graphics art/sigils/Finalizer 7.png",
+   "/graphics art/sigils/Frigg Wallpaper.png",
+   "/graphics art/sigils/Hgat 2.png",
+   "/graphics art/sigils/Ring Shofoww.png",
+   "/graphics art/sigils/SystemSearcher.png",
+   "/graphics art/sigils/Tayring 3.png",
+   "/graphics art/sigils/TheNextDecade.png",
+   "/graphics art/sigils/Thor Wallpaper 2.png",
+   "/graphics art/sigils/Tyr Wallpaper.png"
 ];

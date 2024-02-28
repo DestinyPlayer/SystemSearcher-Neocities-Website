@@ -13,7 +13,6 @@ const images = [
    "/graphics art/logos/AngSpher00.png",
    "/graphics art/logos/AngSpher01.png",
    "/graphics art/logos/Bloody blood blood.png",
-   "/graphics art/logos/commissions",
    "/graphics art/logos/Cyberiad Col.png",
    "/graphics art/logos/Cyberiad Dos - Render.png",
    "/graphics art/logos/Cyberiad Dos.png",

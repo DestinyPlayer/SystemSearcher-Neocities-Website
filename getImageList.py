@@ -3,7 +3,13 @@ import os
 basePath = "/graphics art/"
 endPath = "/fileList/"
 foldersPaths = [
-    "misc"
+    "logos",
+    "sigils",
+    "misc",
+    "misc/touhou",
+    "maps",
+    "pixel art",
+    "kitbashes"
 ]
 for i in range(len(foldersPaths)):
     curFolder = "_site"+basePath+foldersPaths[i]
