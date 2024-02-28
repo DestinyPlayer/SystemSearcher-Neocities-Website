@@ -1,4 +1,5 @@
 const images = [
+   "/graphics art/sigils/Arachnal Rune.png",
    "/graphics art/sigils/Bones ED.png",
    "/graphics art/sigils/Celtic Circle.png",
    "/graphics art/sigils/Circle 01 ED.png",
@@ -17,5 +18,6 @@ const images = [
    "/graphics art/sigils/Tayring 3.png",
    "/graphics art/sigils/TheNextDecade.png",
    "/graphics art/sigils/Thor Wallpaper 2.png",
-   "/graphics art/sigils/Tyr Wallpaper.png"
+   "/graphics art/sigils/Tyr Wallpaper.png",
+   "/graphics art/sigils/Yache Ruhm PUB.png"
 ];
