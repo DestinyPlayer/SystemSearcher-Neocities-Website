@@ -1,7 +1,7 @@
 import os
 
-basePath = "_site/graphics art/"
-endPath = "_site/fileList/"
+basePath = "/graphics art/"
+endPath = "/fileList/"
 foldersPaths = [
     "kitbashes",
     "logos",
@@ -11,11 +11,9 @@ foldersPaths = [
     "sigils"
 ]
 for i in range(len(foldersPaths)):
-    curFolder = basePath+foldersPaths[i]
+    curFolder = "_site"+basePath+foldersPaths[i]
     curContent = os.listdir(curFolder)
-    print(curFolder)
-    print(os.listdir(curFolder))
-    f = open(endPath+foldersPaths[i]+".js", "w")
+    f = open("_site"+endPath+foldersPaths[i]+".js", "w")
     
     f.write("const images = [\n")
     for j in range(len(curContent)):
