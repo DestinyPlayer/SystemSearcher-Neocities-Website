@@ -1,4 +1,4 @@
-const filler = '<div class="image-button" style="width:20%; height:20%;">\n<img src="IMAGEHERE" class="image-base">\n<img src="IMAGEHERE" class="image-content">\n</div>\n\n'
+const filler = '<div class="image-button">\n<img src="IMAGEHERE" class="image-base">\n<img src="IMAGEHERE" class="image-content">\n</div>\n\n'
 
 var textFill = ""
 function readImages() {
