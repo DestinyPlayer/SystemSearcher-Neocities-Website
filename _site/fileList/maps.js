@@ -1,5 +1,5 @@
 const images = [
-   "_site/graphics art/MAP Weird.2.png",
-   "_site/graphics art/Nation of Vei 2.png",
-   "_site/graphics art/World of Demons.png"
+   "/graphics art/maps/MAP Weird.2.png",
+   "/graphics art/maps/Nation of Vei 2.png",
+   "/graphics art/maps/World of Demons.png"
 ];

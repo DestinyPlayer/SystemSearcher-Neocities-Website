@@ -1,8 +1,8 @@
 const images = [
-   "_site/graphics art/Carrier.png",
-   "_site/graphics art/Cruiser Carrier 3.png",
-   "_site/graphics art/Cruiser4.png",
-   "_site/graphics art/Destroyer2.png",
-   "_site/graphics art/Frigate4.png",
-   "_site/graphics art/Orb5.png"
+   "/graphics art/kitbashes/Carrier.png",
+   "/graphics art/kitbashes/Cruiser Carrier 3.png",
+   "/graphics art/kitbashes/Cruiser4.png",
+   "/graphics art/kitbashes/Destroyer2.png",
+   "/graphics art/kitbashes/Frigate4.png",
+   "/graphics art/kitbashes/Orb5.png"
 ];
