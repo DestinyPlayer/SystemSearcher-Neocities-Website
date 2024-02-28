@@ -1,6 +1,7 @@
 const images = [
    "/graphics art/sigils/Arachnal Rune.png",
    "/graphics art/sigils/Bones ED.png",
+   "/graphics art/sigils/Burnt Sigilage.png",
    "/graphics art/sigils/Celtic Circle.png",
    "/graphics art/sigils/Circle 01 ED.png",
    "/graphics art/sigils/Eilian Circle.png",
@@ -13,6 +14,7 @@ const images = [
    "/graphics art/sigils/Finalizer 7.png",
    "/graphics art/sigils/Frigg Wallpaper.png",
    "/graphics art/sigils/Hgat 2.png",
+   "/graphics art/sigils/Random Correspondence.png",
    "/graphics art/sigils/Ring Shofoww.png",
    "/graphics art/sigils/SystemSearcher.png",
    "/graphics art/sigils/Tayring 3.png",
