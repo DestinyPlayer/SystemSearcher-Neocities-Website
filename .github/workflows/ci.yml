@@ -13,7 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-
+    
+    - run: python getImages.py
     - run: python changedate.py
     
     - name: Deploy to neocities
