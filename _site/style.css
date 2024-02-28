@@ -143,6 +143,8 @@ a:hover {
 .image-button:hover {
   border-color: #ffffff;
   transition: border-color .2s !important;
+  width: 200px;
+  height: 200px;
 }
 
 .image-button .pixel {
@@ -150,7 +152,6 @@ a:hover {
 }
 
 .image-base {
-  width: 200px;
   padding: 10px;
 }
 
