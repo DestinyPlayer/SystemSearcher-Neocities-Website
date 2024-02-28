@@ -143,6 +143,23 @@ a:hover {
     position: relative;
 }
 
+.image-button-old {
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: #666666;
+    transition: border-color .6s !important;
+    display: inline;
+    margin: 10px !important;
+    height: auto;
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
 .image-button:hover {
   border-color: #ffffff;
   transition: border-color .2s !important;
