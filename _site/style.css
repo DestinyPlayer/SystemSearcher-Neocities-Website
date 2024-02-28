@@ -125,26 +125,26 @@ a:hover {
 }
 
 .image-button {
-  cursor: pointer;
-  border: 2px solid;
-  border-radius: 25px;
-  border-color: #666666;
-  transition: border-color .6s !important;
-  display: inline;
-  margin: 10px !important;
-  height: auto;
-  background-color: black;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  object-fit: contain;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: #666666;
+    transition: border-color .6s !important;
+    display: inline;
+    margin: 10px !important;
+    height: auto;
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
 }
 
 .image-button:hover {
   border-color: #ffffff;
   transition: border-color .2s !important;
-  width: 200px;
-  height: 200px;
 }
 
 .image-button .pixel {
@@ -153,6 +153,7 @@ a:hover {
 
 .image-base {
   padding: 10px;
+  width: 100%;
 }
 
 .image-content {
