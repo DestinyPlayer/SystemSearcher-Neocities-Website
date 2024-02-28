@@ -6,7 +6,7 @@ foldersPaths = [
     "logos",
     "sigils",
     "misc",
-    "misc/touhou",
+    "misc/Touhou",
     "maps",
     "pixel art",
     "kitbashes"
