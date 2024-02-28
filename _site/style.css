@@ -137,6 +137,7 @@ a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  object-fit: contain;
 }
 
 .image-button:hover {
@@ -149,8 +150,7 @@ a:hover {
 }
 
 .image-base {
-  width: 200px;
-  height: 200px;
+  width: 20%;
   padding: 10px;
   image-rendering: pixelated;
 }
