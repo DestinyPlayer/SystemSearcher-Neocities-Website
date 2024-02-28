@@ -137,10 +137,10 @@ a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    object-fit: contain;
     width: 200px;
     height: 200px;
     overflow: hidden;
+    position: relative;
 }
 
 .image-button:hover {
@@ -153,11 +153,10 @@ a:hover {
 }
 
 .image-base {
-  display: inline;
-  padding: 10px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  width: 200px;
+  left: 50%;
+  margin-left: -50%;
 }
 
 .image-content {
