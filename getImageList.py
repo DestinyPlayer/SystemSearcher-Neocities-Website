@@ -1,7 +1,7 @@
 import os
 
-basePath = "graphics art/"
-endPath = "fileList/"
+basePath = "/graphics art/"
+endPath = "/fileList/"
 foldersPaths = [
     "kitbashes",
     "logos",
@@ -18,8 +18,8 @@ for i in range(len(foldersPaths)):
     f.write("const images = [\n")
     for j in range(len(curContent)):
         if j == len(curContent)-1:
-            f.write('   "/'+basePath+foldersPaths[i]+"/"+curContent[j]+'"\n')
+            f.write('   "'+basePath+foldersPaths[i]+"/"+curContent[j]+'"\n')
         else:
-            f.write('   "/'+basePath+foldersPaths[i]+"/"+curContent[j]+'",\n')
+            f.write('   "'+basePath+foldersPaths[i]+"/"+curContent[j]+'",\n')
     f.write("];")
     f.close()
