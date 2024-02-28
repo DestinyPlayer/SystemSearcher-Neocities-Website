@@ -19,12 +19,10 @@ function readImages(pixelToggle) {
         baseImg.src = images[i];
         buttonDiv.appendChild(baseImg);
 
-        if (!pixelToggle) {
-            var contentImg = document.createElemnt('img');
-            contentImg.classList.add('image-content');
-            contentImg.src = images[i];
-            buttonDiv.appendChild(contentImg);
-        }
+        var contentImg = document.createElemnt('img');
+        contentImg.classList.add('image-content');
+        contentImg.src = images[i];
+        buttonDiv.appendChild(contentImg);
 
         target.appendChild(buttonDiv);
     }
